@@ -1,0 +1,16 @@
+###
+GET http://localhost:3000/api/users
+
+###
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "username": "Federico",
+    "email": "fede@gmail.com",
+    "password": "12345"
+}
+
+###
+PUT http://localhost:3000/api/users/62cbdf3c5ac790d31141b755/product/62c7ea4f1382cc846b2ad84c
+
